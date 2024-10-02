@@ -5,3 +5,4 @@
 This repository contains the code for the paper [Large Language Models Can Self-Correct with Key Condition Verification](https://arxiv.org/abs/2405.14092) (Accepted to EMNLP Main 2024). ProCo first prompts an LLM to generate an initial response, then iterates a verify-then-correct process to progressively identify and correct (probably) false responses.
 Extensive experiments on eight complex reasoning datasets demonstrate the effectiveness and efficiency of ProCo.
 
+![image](https://github.com/wzy6642/I3C-Select/blob/main/framework.png)
