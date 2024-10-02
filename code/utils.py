@@ -9,9 +9,9 @@ import openai
 # configuration
 data_name_choices = ['NQ', 'TriviaQA', 'WebQ']
 data_save_path = {
-    'NQ': r'E:\research\08_QA-verify-rectify\datasets\Natural Questions\nq-test.jsonl', 
-    'TriviaQA': r'E:\research\08_QA-verify-rectify\datasets\TriviaQA\tqa-test.jsonl', 
-    'WebQ': r'E:\research\08_QA-verify-rectify\datasets\WebQuestions\webq-test.jsonl'
+    'NQ': r'path', 
+    'TriviaQA': r'path', 
+    'WebQ': r'path'
 }
 openai.api_key = "***" 
 openai.api_base = "***"
@@ -42,7 +42,7 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
 
 
 def check_string(s):
-    if s == "" or s == "IP访问频率过高,请稍后再试":
+    if s == "":
         raise ValueError("Empty string encountered.")
 
 
