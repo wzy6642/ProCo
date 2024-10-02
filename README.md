@@ -6,3 +6,29 @@ This repository contains the code for the paper [Large Language Models Can Self-
 Extensive experiments on eight complex reasoning datasets demonstrate the effectiveness and efficiency of ProCo.
 
 ![image](https://github.com/wzy6642/ProCo/blob/main/framework.png)
+
+
+ - Run `run.py` to generate the answer to the given question
+
+```python
+python run.py --data_index 0
+```
+
+## Experimental Results
+
+![image](https://github.com/wzy6642/I3C-Select/blob/main/experiments.png)
+
+
+## Citing ProCo
+```markdown
+@inproceedings{wu2024proco,
+  title={Large Language Models Can Self-Correct with Key Condition Verification}, 
+  author={Zhenyu Wu and Qingkai Zeng and Zhihan Zhang and Zhaoxuan Tan and Chao Shen and Meng Jiang},
+  booktitle={Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2024},
+}
+```
+
+## License
+
+This project is licensed under the Apache-2.0 License.
