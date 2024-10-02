@@ -16,7 +16,7 @@ python run.py --data_index 0
 
 ## Experimental Results
 
-![image](https://github.com/wzy6642/I3C-Select/blob/main/experiments.png)
+![image](https://github.com/wzy6642/ProCo/blob/main/experiments.png)
 
 
 ## Citing ProCo
